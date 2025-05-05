@@ -1,10 +1,10 @@
-# 📊 A/B Testing with Real-World E-Commerce Data
+# A/B Testing with Real-World E-Commerce Data
 
 This project demonstrates a complete A/B testing workflow using simulated e-commerce data. It explores whether a new website variant affects user revenue and conversion behavior, while also showcasing statistical analysis skills including hypothesis testing, data visualization, and ANOVA.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source:** [Kaggle - A/B Test Data by Sergylog](https://www.kaggle.com/datasets/sergylog/ab-test-data)
 - **Variables:**
@@ -14,26 +14,26 @@ This project demonstrates a complete A/B testing workflow using simulated e-comm
 
 ---
 
-## 🧪 Statistical Methods Used
+## Statistical Methods Used
 
-- ✅ **Mann-Whitney U Test** for revenue comparison (non-parametric)
-- ✅ **Chi-Square Test** for conversion rate difference
-- ✅ **One-Way ANOVA** on synthetic `USER_TYPE` variable
-- ✅ **Normality Testing** (Shapiro-Wilk, Kolmogorov-Smirnov)
-- ✅ **Data Cleaning** (duplicate removal, type conversion)
-
----
-
-## 📊 Visualizations
-
-- 📦 Boxplot & Violin Plot: Revenue by group
-- 📍 Swarm Plot: Non-zero revenue by user type
-- 📈 Bar Chart: Conversion rates by variant
-- 🧪 Annotated statistical results
+- **Mann-Whitney U Test** for revenue comparison (non-parametric)
+- **Chi-Square Test** for conversion rate difference
+- **One-Way ANOVA** on synthetic `USER_TYPE` variable
+- **Normality Testing** (Shapiro-Wilk, Kolmogorov-Smirnov)
+- **Data Cleaning** (duplicate removal, type conversion)
 
 ---
 
-## 🧠 Key Findings
+## Visualizations
+
+- Boxplot & Violin Plot: Revenue by group
+- Swarm Plot: Non-zero revenue by user type
+- Bar Chart: Conversion rates by variant
+- Annotated statistical results
+
+---
+
+## Key Findings
 
 - No statistically significant difference in revenue or conversion rate between the control and variant groups
 - Synthetic user type groups also showed no significant variation in revenue
@@ -41,7 +41,7 @@ This project demonstrates a complete A/B testing workflow using simulated e-comm
 
 ---
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 - A/B testing design and evaluation
 - Exploratory data analysis (EDA)
@@ -51,7 +51,7 @@ This project demonstrates a complete A/B testing workflow using simulated e-comm
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Python 3
 - Pandas, NumPy
@@ -60,7 +60,7 @@ This project demonstrates a complete A/B testing workflow using simulated e-comm
 
 ---
 
-## 📌 Future Extensions
+## Future Extensions
 
 - Add time-based analysis (if time data becomes available)
 - Incorporate additional confounding variables for multi-factor ANOVA
@@ -68,6 +68,6 @@ This project demonstrates a complete A/B testing workflow using simulated e-comm
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and demonstration purposes only. Dataset is provided by the original Kaggle author under their terms.
