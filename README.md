@@ -26,7 +26,7 @@ This project demonstrates a complete A/B testing workflow using simulated e-comm
 
 ## Visualizations
 
-- Boxplot & Violin Plot: Revenue by group
+- Boxplot: Revenue by group
 - Swarm Plot: Non-zero revenue by user type
 - Bar Chart: Conversion rates by variant
 - Annotated statistical results
